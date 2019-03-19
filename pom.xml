@@ -89,6 +89,11 @@
       </dependency>
       <dependency>
         <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>aws-credentials</artifactId>
+        <version>1.26</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>ssh-credentials</artifactId>
         <version>1.13</version>
       </dependency>
@@ -155,6 +160,12 @@
       <!--  for Secret Text / Secret File -->
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>plain-credentials</artifactId>
+      <optional>true</optional>
+    </dependency>
+      <!-- for AWS credentials -->
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>aws-credentials</artifactId>
       <optional>true</optional>
     </dependency>
       <!-- Basic Username PrivateKey -->
